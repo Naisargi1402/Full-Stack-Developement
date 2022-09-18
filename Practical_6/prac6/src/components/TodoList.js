@@ -42,14 +42,19 @@ function TodoList() {
 
   return (
     <>
-      <h1>TODO LIST</h1>
+      <h1>TODO LIST  </h1>
+      
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
         completeTodo={completeTodo}
         removeTodo={removeTodo}
         updateTodo={updateTodo}
+        
+        
       />
+      
+      <h1>20CS100 Naisargi Vadodariya</h1>
     </>
   );
 }
